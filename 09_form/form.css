@@ -1,0 +1,17 @@
+
+body {
+	font-family: Verdana;
+	color: #DAA520;
+}
+
+div {
+	margin: 1em;
+	background-color: black;
+	padding: 1em;
+	padding-left: 5em;
+}
+
+h2 {
+	margin: 0; 
+	padding: 0;
+}

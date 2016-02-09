@@ -1,0 +1,126 @@
+body {
+	background-color: black;
+}
+
+p {
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+div{
+	position: absolute;
+}
+
+.time {
+	margin:0;
+	border-radius: 50%;
+	border: 5px dashed white;
+	float: left;
+	background-color: black
+
+}
+
+.time:hover {
+	border: 5px dashed blue;
+	
+}
+
+#second {
+	width: 4.5em;
+	height: 4.5em;
+	margin: 4em 0 0 2em;
+	animation: sec 1s linear infinite;
+}
+
+
+#minute {
+	width: 12em;
+	height: 12em;
+	margin: 6em 0 0 4em;
+	animation: sec 60s linear infinite;
+}
+
+#minute:hover{
+	animation: min 2s ease-in infinite;
+}
+
+@-webkit-keyframes min{
+	100% {
+		transform: translate(0,-2em);
+	}
+}
+
+#hour {
+	width: 24em;
+	height: 24em;
+	margin: 10em 0 0 8em;
+	animation: sec 3600s linear infinite;
+}
+
+#hour:hover{
+	animation: hr 2s ease-in ;
+}
+
+@-webkit-keyframes hr{
+	100% {
+		transform: translate(0,-6em);
+	}
+}
+
+#day{
+	width: 48em;
+	height: 48em;
+	margin: 16em 0 0 14em;
+	animation: sec 86400s linear infinite;
+}
+
+#day:hover{
+	animation: day 2s ease-in ;
+}
+
+@-webkit-keyframes day{
+	100% {
+		transform: translate(0,-12em);
+	}
+}
+
+
+@-webkit-keyframes sec{
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#secline{
+	height:100vh;
+	margin-left: 4.5em;
+	border-left: solid white 3px;
+	color: white;
+}
+
+#minline{
+	height:100vh;
+	margin-left: 10em;
+	border-left: solid white 3px;
+	color: white;
+}
+
+#hrline{
+	height:100vh;
+	margin-left: 20em;
+	border-left: solid white 3px;
+	color: white;
+}
+
+#dayline{
+	height:100vh;
+	margin-left: 38em;
+	border-left: solid white 3px;
+	color: white;
+}
+h1 {
+	font-family: Verdana;
+	font-size: 1em;
+	padding-left: .5em;
+}

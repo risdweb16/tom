@@ -1,0 +1,45 @@
+body{
+	font-family: 'Eurostile';
+}
+
+h1 {
+	font-size: 3em;  
+	padding: 1em;
+	margin: 0;
+}
+
+ 
+h2 {
+	color : #383838;
+	margin-left: 2.5em;
+}
+
+h5 {
+	font-size: 1.5em;
+	padding: 1em 0em 1em 0em;
+	border-bottom: solid #989898;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+p {
+	margin: 0 8em 0 6em;
+	padding: 1em 0 1em 2em;
+	border-left: solid #989898  ;
+}
+
+ .heading {
+ 	background-color: #C0C0C0;
+ 	text-align: center;
+ 	padding: 2em;
+ 	padding-bottom: 1em;
+ }
+
+.list {
+
+	background-color: #ADD8E6;
+	margin: 2em 8em 2em 6em;
+	padding: 2em;
+	border-left: solid #989898  
+ }
+

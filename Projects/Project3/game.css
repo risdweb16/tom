@@ -1,0 +1,105 @@
+body{
+	font-family: sans-serif;
+
+}
+
+
+
+h1{
+	margin-left: 20px;
+	color: white;
+}
+
+.box{
+	height: 6em;
+	width: 20vw;
+	padding: 1em;
+	margin: 1em;
+	float: left;
+	position: relative;
+	background-color: gray;
+	border-radius: 15px;
+}
+
+.team{
+	width:20vw;
+	padding: 1em;
+	margin: 1em;
+	float: left;
+	border-radius: 15px;
+	background-color: #030;
+}
+
+#result{
+	clear: bottom ;
+}
+
+#good{
+	clear: all;
+}
+
+#bad{
+
+	
+}
+
+.die{
+	width: 8em;
+	height: 8em;
+	margin: 20px;
+	float: left;
+	border-radius: 15%;
+	animation: sec 1s linear 1;
+}
+
+@-webkit-keyframes sec{
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.whitedie{
+	background-color: white;
+	color: black;
+}
+
+.blackdie{
+	background-color: black;
+	color: white;	
+}
+
+p {
+	font-size: 2em;
+	text-align:center;
+}
+
+button {
+	text-align:center;
+	width: 20vw;
+	height: 7em;
+}
+
+h3 {
+	font-size: 1.2em;
+	text-align:center;
+}
+
+form {
+	
+	text-align:center;
+}
+
+#dienumber{
+	width: 3em;
+}
+
+h4{
+	float: left;
+	margin: 2vw;
+	text-align:center;
+	font-size: 2em;
+}
+
+#divider{
+	
+}

@@ -1,0 +1,56 @@
+.bars {
+	width: 25px;
+	height: 80px;
+	background-color: blue; 
+	float: left;
+	margin: 30px 20px 0 0;
+}
+.one {
+	margin-left: 30px;
+
+}
+.two{
+	background-color: green; 
+	position: relative;
+	top: 35px;
+
+}
+.three{
+	background-color: red;
+	position: relative;
+	top: 20px;
+}
+.four{
+	position: relative;
+	top: 28px;
+}
+.ex {
+	position: relative;
+	top: 24px;
+}
+.spec {
+	float: right;
+	min-height: 100vh;
+    max-height: 100%;
+}
+.block{
+	background-color: gray;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 100px 0 0 0;
+    z-index: -1;
+
+	/**width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;//
+	background-color: gray;**/
+
+}
+.form{
+	padding: 3em;
+}

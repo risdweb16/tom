@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="navpages.css">
+
+    <title>Half Slider - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/half-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="navbar">
+
+
+    </div>
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://vignette2.wikia.nocookie.net/starwars/images/7/7d/Grand_army_formation.jpg/revision/latest?cb=20090918154725');"></div>
+                <div class="carousel-caption">
+                    <h2 class="army">OLD REPUBLIC</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://cdn.playbuzz.com/cdn/cbc003e4-5cbb-43e4-b2a6-7ead31a2d7df/c771d92c-4f0d-45b0-84dc-277281d7c0aa.png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="army">EMPIRE</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://vignette2.wikia.nocookie.net/starwars/images/b/b8/FirstOrder.png/revision/latest?cb=20150811001647');"></div>
+                <div class="carousel-caption">
+                    <h2 class="army">THE FIRST ORDER</h2>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!-- Page Content -->
+
+        <div id="body" >
+
+            <div id="bodybackground">
+                <a href="capitalships.html">
+                    <div class="unit" >
+                        <div class="unitphoto">
+                            <img src="http://vignette3.wikia.nocookie.net/starwars/images/2/2a/Acclamator_OCF.jpg/revision/latest?cb=20091003023542" style="width: 100%;">
+                        </div>
+                        <h3 class="unittext">
+                            Capital Ships
+                        </h3>   
+                    </div>
+                </a>
+
+                 <a href="starfighters.html">
+                    <div class="unit">
+                        <div class="unitphoto">
+                            <img src="http://vignette3.wikia.nocookie.net/starwars/images/b/ba/ARC170starfighter.jpg/revision/latest?cb=20111112062600" style="width: 100%;">
+                        </div>
+                        <h3 class="unittext">
+                            Starfighters
+                        </h3>   
+                    </div>
+                </a>
+
+                <a href="landingcraft.html">
+                    <div class="unit">
+                        <div class="unitphoto">
+                            <img src="http://vignette3.wikia.nocookie.net/starwars/images/9/96/AAL.png/revision/latest?cb=20151230112525" style="width: 100%;">
+                        </div>
+                        <h3 class="unittext">
+                            Landing Craft / Shuttles
+                        </h3>   
+                    </div>
+                </a>
+
+                <a href="walkers.html">
+                    <div class="unit">
+                        <div class="unitphoto">
+                            <img src="http://vignette2.wikia.nocookie.net/starwars/images/d/d5/Atot.jpg/revision/latest?cb=20050706063824" style="width: 100%;">
+                        </div>
+                        <h3 class="unittext">
+                           Walkers
+                        </h3>   
+                    </div>
+                </a>
+
+                <a href="repulsor.html">
+                    <div class="unit">
+                        <div class="unitphoto">
+                            <img src="http://vignette4.wikia.nocookie.net/starwars/images/2/2b/CW_Tank.jpg/revision/latest?cb=20060319125541" style="width: 100%;">
+                        </div>
+                        <h3 class="unittext">
+                            Repulsorlift Vehicles
+                        </h3>   
+                    </div>
+                </a>
+    
+            </div>
+            
+        </div>
+
+    
+
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>

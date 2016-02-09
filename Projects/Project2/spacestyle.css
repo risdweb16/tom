@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+
+
+#hub1 {
+	background: linear-gradient(#44515c,black);
+	height: 80vh;
+	width: 15vw;
+	margin-left: 5vw;
+	position: absolute;
+	z-index: 10000;
+}
+
+#hub1:hover ~ #layer3 {
+	z-index: 1000;
+}
+
+#hub2 {
+	background: linear-gradient(#44515c,black);
+	height: 90vh;
+	width: 15vw;
+	margin-left: 5vw;
+	position: absolute;
+	z-index: 9000;
+}
+#hub2:hover ~ #layer2{
+	z-index: 1000;
+	
+}
+
+#hub3 {
+	background: linear-gradient(#44515c,black);
+	height: 100vh;
+	width: 15vw;
+	margin-left: 5vw;
+	position: absolute;
+	z-index: 8000;	
+}
+#hub3:hover~ #layer1{
+	z-index: 1000;
+}
+
+
+
+
+
+
+
+#layer1 {
+	background: linear-gradient(black, #333e48);
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	
+}
+
+#layer2 {
+	background: linear-gradient(black, #3b4752);
+	height: 90vh;
+	width: 90vw;
+	position: absolute;
+	
+}
+
+#layer3 {
+	background: linear-gradient(black, #44515c);
+	height: 80vh;
+	width: 80vw;
+	position: absolute;
+}
+
+div:hover {
+	z-index: 1000;
+}
+
+
+
+.pictures {
+	margin: 10vh 0 0 25vw;
+	width: 50vw;	
+	
+}
+
+
+.img {
+	clear:right;
+	position: relative;
+	clear:right;
+}
+
+
+div>div>div>img {
+	width: 5vw;
+	padding:0;
+	position: relative;
+}
+
+
+ h2{
+   color: white;
+   position: absolute;
+   bottom: 0;
+   right: 1em;
+ }
+
+ h1{
+ 	color:white;
+ 	padding: 1em;
+ }
+
+
+
+
+
+
+ .info {
+ 	position: absolute;
+ 	margin: 10vh 0 0 35vw;
+ 	padding: 0;
+
+ }
+
+ img {	
+ 	
+ 	width: 25vw;
+	
+ }
+
+
+#a {
+	width:5vw;
+}
+
+ #a:hover~#aa{
+ 	z-index: 100000;
+ 	
+ }
+
+#b{
+	width: 5vw;
+}
+ #b:hover~#bb{
+ 	z-index: 100000;
+ 	
+ }
+
+ #c:hover~#cc{
+ 	z-index: 100000;
+ 	
+ }
+
+ #d:hover ~ #dd{
+ 	z-index: 100000;
+ 	
+ }
+
+ #e:hover ~ #ee{
+ 	z-index: 100000;
+ }
+
+ #f:hover ~ #ff{
+ 	z-index: 100000;
+ }
+
+ #g:hover ~ #gg{
+ 	z-index: 100000;
+ }
+
+ #h:hover ~ #hh{
+ 	z-index: 100000;
+ }
